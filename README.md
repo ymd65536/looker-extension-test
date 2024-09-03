@@ -27,3 +27,33 @@ go away.
 ```bash
 npm install -D @babel/plugin-proposal-private-property-in-object
 ```
+
+## Lookerのコンポーネントを使う
+
+```bash
+npm install @looker/components
+npm install @looker/components-providers
+npm install @styled-icons/styled-icon
+```
+
+## audit fix
+
+```bash
+npm audit fix --force
+```
+
+```bash
+@babel/plugin-proposal-unicode-property-regex@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-unicode-property-regex instead.
+```
+
+上記のエラーが出た場合は以下のコマンドを実行します。
+
+```bash
+yarn add @babel/plugin-proposal-unicode-property-regex --dev
+```
+
+## yarn
+
+```bash
+yarn install
+```
