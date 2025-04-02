@@ -1,5 +1,7 @@
 # looker-extension-test
 
+※このリポジトリは参照されています。[ Lookerは可視化だけじゃない。UIコンポーネントもあるんだ！](https://speakerdeck.com/ymd65536/lookerhake-shi-hua-dakeziyanai-uikonponentomoarunda)
+
 Lookerの拡張機能をゼロから作るとどうなるかやってみる
 
 ```bash
